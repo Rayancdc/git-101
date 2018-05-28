@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	font-family: Helvetica;
+}
+
+#logo {
+	height: 280px;
+	width: 280px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vh;
+	flex-direction: column;
+
+}
+
+.items {
+	flex: 1 1 auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+	position: relative;
+}
+.item-text {
+	position: absolute;
+	bottom: 10px;
+
+}
